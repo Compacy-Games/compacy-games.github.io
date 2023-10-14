@@ -18,7 +18,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 .site-header {
     display: flex;
     width: 100%;

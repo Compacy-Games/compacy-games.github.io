@@ -4,7 +4,7 @@
     </main>
 </template>
 
-<style>
+<style scoped>
 .intro {
     font-size: 60px;
 }

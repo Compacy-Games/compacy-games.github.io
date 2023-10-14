@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
   content: {
+    highlight: {
+      theme: 'github-dark'
+    }
   },
   ssr: false,
   app:{
