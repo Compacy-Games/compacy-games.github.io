@@ -50,7 +50,7 @@ jobs:
           touch .nojekyll
           git init
           git add -A
-          git config --local user.email ${{secrets.GITHUBEMAIL}}
+          git config --local user.email "nofuncoding@qq.com"
           git config --local user.name "nofuncoding"
           git commit -m 'deploy'
 
