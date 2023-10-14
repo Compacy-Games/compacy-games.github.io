@@ -1,1 +1,0 @@
-import{_ as s,c as t,o,a as e,d as _}from"./entry.c1680a64.js";const a={},c={style:{display:"flex"}},n=e("h1",{class:"intro"},[e("span",{id:"tr"},"Compacy"),e("br"),_("Games")],-1),r=[n];function d(i,l){return o(),t("main",c,r)}const x=s(a,[["render",d]]);export{x as default};
