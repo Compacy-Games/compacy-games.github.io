@@ -50,8 +50,8 @@ jobs:
           touch .nojekyll
           git init
           git add -A
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email ${{secrets.GITHUBEMAIL}}
+          git config --local user.name "nofuncoding"
           git commit -m 'deploy'
 
       - name: Deploy
