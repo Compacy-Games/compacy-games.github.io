@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Inter;
+    src: url("/fonts/Inter.var.woff2");
+}
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("/fonts/SpaceGrotesk.woff2");
+}
