@@ -12,4 +12,7 @@ export default defineNuxtConfig({
   content: {
   },
   ssr: false,
+  app:{
+    buildAssetsDir: "/static/",
+  },
 })
