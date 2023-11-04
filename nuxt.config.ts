@@ -12,8 +12,14 @@ export default defineNuxtConfig({
   content: {
     highlight: {
       theme: 'github-dark'
-    }
+    },
+    experimental: {
+      // Experimental static generating, will official support in next major version
+      // Checkout https://github.com/nuxt/content/issues/1746#issuecomment-1346737779
+      clientDB: true
+    },
   },
+  // Generate static site for GitHub Pages
   ssr: false,
   app:{
     buildAssetsDir: "/static/",
