@@ -1,1 +1,0 @@
-import{_ as s,c as t,o,p as c,f as d,a,d as _}from"./entry.00519b9b.js";const n={},p=e=>(c("data-v-a0a1d00d"),e=e(),d(),e),r={style:{display:"flex"}},i=p(()=>a("h1",{class:"intro"},[a("span",{id:"tr"},"Compacy"),a("br"),_("Games")],-1)),l=[i];function f(e,x){return o(),t("main",r,l)}const m=s(n,[["render",f],["__scopeId","data-v-a0a1d00d"]]);export{m as default};
