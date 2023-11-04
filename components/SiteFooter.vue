@@ -1,7 +1,12 @@
 <template>
     <div class="site-footer">
         <p>© 2023 Compacy Games</p>
-        <p>Powered by <a href="https://nuxt.com/"><img id="nuxt-logo" src="~/assets/img/nuxt.ico" alt="Nuxt.js"/></a></p>
+        <p>Powered by
+            <a href="https://nuxt.com/">
+                <!--<NuxtImg id="nuxt-logo" src="/nuxt-icon.png"/>-->
+                <img id="nuxt-logo" src="~/public/nuxt-icon.png"/>
+            </a>
+        </p>
     </div>
 </template>
 
@@ -17,7 +22,7 @@
     height: 4rem;
     padding: 1rem 0 1rem 0;
 
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
 
     /*
     border-top: solid;
@@ -30,13 +35,13 @@
     margin: .2rem;
     color: #ffffff;
     font-size: .85rem;
+    font-weight: 200;
 }
 
 #nuxt-logo {
     height: 1.2em;
     line-height: 1.2em;
     margin-left: 3px;
-    /*border: 1px solid red;*/
     vertical-align: -15%;
 }
 </style>

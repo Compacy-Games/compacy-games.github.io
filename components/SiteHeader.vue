@@ -2,15 +2,59 @@
     <div class="site-header">
         <div class="container">
             <nav>
-                <ul>
+                <ul id="large-nav">
                     <li>
-                        <NuxtLink to="/">Home</NuxtLink>
+                        <NuxtLink to="/">
+                            主页
+                            <span class="sm-text">Home</span>
+                        </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/about">About</NuxtLink>
+                        <NuxtLink to="/about">
+                            关于
+                            <span class="sm-text">About</span>
+                        </NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="/blog">Blog</NuxtLink>
+                        <NuxtLink to="/join_us">
+                            加入我们
+                            <span class="sm-text">Join us</span>
+                        </NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/blog">
+                            博客
+                            <span class="sm-text">Blog</span>
+                        </NuxtLink>
+                    </li>
+                </ul>
+                <ul id="small-nav">
+                    <li>
+                        <NuxtLink to="/">
+                            主页
+                            <span class="sm-text">Home</span>
+                        </NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/about">
+                            关于
+                            <span class="sm-text">About</span>
+                        </NuxtLink>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            ...
+                            <div class="dropdown-content">
+
+                                <NuxtLink to="/join_us">
+                                    加入我们
+                                </NuxtLink>
+
+                                <NuxtLink to="/blog">
+                                    博客
+                                </NuxtLink>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -44,17 +88,19 @@
     /*justify-content: center;
     background-color: blue;*/
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .site-header .container ul li {
     float: left;
-    margin: .5rem;
+    margin: 2rem;
 }
 
 .site-header .container ul li a {
     display: block;
-    width: 5rem;
-    padding: .5rem 1rem .5rem 1rem;
+    width: 7rem;
+    padding: .5rem 1.2rem .5rem 1.2rem;
     text-align: center;
     color: black;
     /*border: solid .1px;*/
@@ -63,5 +109,80 @@
 .site-header .container ul li a:hover {
     background-color: #0000ff;
     color: white;
+}
+
+/* For the mobile device */
+
+.sm-text {
+    font-size: .8rem;
+}
+
+#small-nav {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .site-header .container ul li {
+        margin: .5rem;
+    }
+    .site-header .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .site-header .container ul li {
+        margin: .2rem;
+    }
+
+    .site-header .container ul li a {
+        width: 5rem;
+        padding: .5rem .5rem .5rem .5rem;
+    }
+
+    .sm-text {
+        display: none;
+    }
+
+    .site-header .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #large-nav {
+        display: none;
+    }
+    #small-nav {
+        display: block;
+    }
+    .dropdown {
+        position: relative;
+        display: block;
+        width: 5rem;
+        padding: .5rem .5rem .5rem .5rem;
+        text-align: center;
+        color: black;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 7rem;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        right: 0;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        width: 100% !important;
+        padding: .5rem 0 .5rem 0 !important;
+    }
 }
 </style>
