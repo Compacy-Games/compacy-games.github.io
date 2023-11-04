@@ -17,16 +17,19 @@
     height: 4rem;
     padding: 1rem 0 1rem 0;
 
-    background: #030712;
+    background: rgba(0, 0, 0, 0.8);
+
+    /*
     border-top: solid;
     border-image: linear-gradient(to left, #042f2e, #030712) 1;
-
+    */
 }
 
 .site-footer p {
     text-align: center;
     margin: .2rem;
-    color: #94a3b8;
+    color: #ffffff;
+    font-size: .85rem;
 }
 
 #nuxt-logo {

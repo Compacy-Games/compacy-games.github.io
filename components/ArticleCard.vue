@@ -25,13 +25,16 @@ defineProps<{
     padding-bottom: .5em;
     padding-left: 2.5rem;
     margin-bottom: 1rem;
-    background: #030712;
-    border-image: linear-gradient(to bottom, #042f2e 60%, #030712) 1;
+    background: #0000ff0f;
+    /*border-image: linear-gradient(to bottom, #00f 60%, #0000ffd0) 1;
     border-left: 5px solid #0d9488;
-    /* border-radius: .2rem; */
+    border-radius: .2rem; */
+    border-left: 5px solid #00f;
     max-height: 20rem;
+    /* TODO: ugly. */
+    box-shadow: 0px 5px 15px 0px gray;
 }
-
+/*
 h2 a {
     color: whitesmoke;
 }
@@ -39,5 +42,5 @@ h2 a {
 h2 a:hover {
     text-decoration: underline 1px;
     color:#0d9488;
-}
+}*/
 </style>

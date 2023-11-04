@@ -17,5 +17,11 @@ export default defineNuxtConfig({
   ssr: false,
   app:{
     buildAssetsDir: "/static/",
+    head: {
+      link: [
+        { rel: 'preconnect',  href: 'https://rsms.me/' },
+        { rel: 'stylesheet',  href: 'https://rsms.me/inter/inter.css' },
+      ],
+    },
   },
 })

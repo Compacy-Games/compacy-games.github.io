@@ -16,6 +16,6 @@
 }*/
 
 #tr {
-    color: #14b8a6;
+    color: #00f;
 }
 </style>

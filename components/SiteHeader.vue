@@ -22,16 +22,17 @@
 .site-header {
     display: flex;
     width: 100%;
-    height: 5rem;
+    height: 3rem;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
 
-    background: #030712;
-    border-bottom: solid;
-    border-image: linear-gradient(to right, #042f2e, #030712) 1;
+    border-bottom: solid 1px black;
+    /*border-image: linear-gradient(to right, #0000ff, #030712) 1;*/
 
     margin: 0;
+    padding-bottom: .1rem;
+
 }
 
 .site-header .container {
@@ -53,13 +54,14 @@
 .site-header .container ul li a {
     display: block;
     width: 5rem;
-    padding: .5rem;
+    padding: .5rem 1rem .5rem 1rem;
     text-align: center;
-    color: white;
+    color: black;
     /*border: solid .1px;*/
 }
 
 .site-header .container ul li a:hover {
-    background-color: #115e59;
+    background-color: #0000ff;
+    color: white;
 }
 </style>
