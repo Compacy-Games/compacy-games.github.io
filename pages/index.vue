@@ -1,7 +1,7 @@
 <template>
     <main>
         <h1 class="intro"><span id="tr">Compacy</span><br/>Games</h1>
-        <p>Compare + -cy = Compacy.</p>
+        <p>Compact + (-cy) = Compacy.</p>
         <p>此网站正在重构！</p>
         <h2>联系我们</h2>
         <p><a href="mailto:nofuncoding@qq.com">电子邮件</a> nofuncoding@qq.com</p>

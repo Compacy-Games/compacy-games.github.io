@@ -3,8 +3,9 @@
         <p>© 2023 Compacy Games</p>
         <p>Powered by
             <a href="https://nuxt.com/">
-                <!--<NuxtImg id="nuxt-logo" src="/nuxt-icon.png"/>-->
-                <img id="nuxt-logo" src="~/public/nuxt-icon.png"/>
+                <!--<NuxtImg id="nuxt-logo" src="/nuxt-icon.png"/> **Does Not Work!** -->
+                <!--<img id="nuxt-logo" src="~/public/nuxt-icon.png"/>-->
+                Nuxt
             </a>
         </p>
     </div>
@@ -43,5 +44,10 @@
     line-height: 1.2em;
     margin-left: 3px;
     vertical-align: -15%;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
 }
 </style>
