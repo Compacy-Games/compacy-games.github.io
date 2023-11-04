@@ -2,6 +2,6 @@
 
 Powered by Nuxt 3
 
-Main Color: Teal / Emerald (in tailwindcss)
+Most Used Color: Pure Blue (#0000ff)
 
 Design & Develop: NoFun
