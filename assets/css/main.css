@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-    color: #0000ff50;
+    color: #0000ff90;
     /*text-decoration: underline;*/
 }
 
@@ -35,9 +35,9 @@ body {
     font-size: 1rem;
 }
 
-:root { font-family: 'Inter', sans-serif; }
+:root { font-family: 'Inter', 'Noto Sans SC', sans-serif; }
 @supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
+  :root { font-family: 'Inter var', 'Noto Sans SC', sans-serif; }
 }
 
 main {
