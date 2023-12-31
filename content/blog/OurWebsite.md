@@ -5,21 +5,13 @@ description: If you want...
 
 # Our Website
 
-## President Xi Jinping
+## About Godot Engine
 
-[GitHub](https://github.com)
+A game engine is a complex tool and difficult to present in a few words. Here's a quick synopsis, which you are free to reuse if you need a quick write-up about Godot Engine:
 
-stressed the importance of emancipating the mind and making pioneering efforts as he called on Jiangxi province to promote green, low-carbon, high-quality development by leveraging its strengths in writing its chapter in advancing Chinese modernization.
+Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that users can focus on making games without having to reinvent the wheel. Games can be exported with one click to a number of platforms, including the major desktop platforms (Linux, macOS, Windows), mobile platforms (Android, iOS), as well as Web-based platforms and consoles.
 
-Xi, who is also general secretary of the Communist Party of China Central Committee and chairman of the Central Military Commission, made the remarks during a four-day inspection tour of Jiangxi, which concluded on Friday.
-
-He said that the province should strive to take the lead in accelerating the high-quality development of the old revolutionary base areas and in promoting the rise of Central China, and make contributions to the development of the Yangtze River Economic Belt.
-
-Jiangxi is in the middle reaches of the Yangtze, China's longest river, and most of the southern areas of the province are old revolutionary base areas.
-
-The inspection tour took Xi to the cities of Jiujiang, Jingdezhen and Shangrao. He inspected the shoreline of the Yangtze River, local enterprises, a historical and cultural block, and a village.
-
-In Jiujiang, Xi urged Jiangxi to make greater efforts in protecting the environment of the Yangtze River for the sake of the sustainable development of the Chinese nation.
+Godot is completely free and open source under the [permissive MIT license](https://docs.godotengine.org/en/stable/about/complying_with_licenses.html#doc-complying-with-licenses). No strings attached, no royalties, nothing. Users' games are theirs, down to the last line of engine code. Godot's development is fully independent and community-driven, empowering users to help shape their engine to match their expectations. It is supported by the [Godot Foundation](https://godot.foundation/) not-for-profit.
 
 
 ```css
