@@ -1,1 +1,0 @@
-import{_,c as s,o as c,p as t,f as a,a as o}from"./entry.f87b3824.js";const n={},d=e=>(t("data-v-90023e44"),e=e(),a(),e),p=d(()=>o("div",{id:"about"},[o("h2",null,"关于 Compacy")],-1)),i=[p];function r(e,u){return c(),s("main",null,i)}const f=_(n,[["render",r],["__scopeId","data-v-90023e44"]]);export{f as default};
