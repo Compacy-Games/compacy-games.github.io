@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Space Grotesk";
+    src: url("/fonts/SpaceGrotesk.woff2");
+}
+
+@font-face {
+    font-family: "Cascadia Code";
+    src: url("/fonts/CascadiaCode.woff2");
+}
+
+@font-face {
+    font-family: "Cascadia Code";
+    font-style: italic;
+    src: url("/fonts/CascadiaCodeItalic.woff2");
+}
+
+@font-face {
+    font-family: "Noto Sans SC";
+    src: url("/fonts/NotoSansCJKsc-VF.otf");
+}

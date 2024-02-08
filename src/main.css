@@ -1,0 +1,93 @@
+@import 'font.css';
+@import 'hljs.css';
+
+h1, h2, h3 {
+    /*color: #f5f5f5;*/
+    color: #0a0a0a;
+    /*font-family: 'Space Grotesk', sans-serif;*/
+    /*font-weight: bold;*/
+}
+
+p {
+    /*color: #f5f5f5;*/
+    color: #0a0a0a;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+a:hover {
+    color: #0000ff90;
+    /*text-decoration: underline;*/
+}
+
+body {
+    height: 64rem;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    /*width: 90rem;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.8125rem;*/
+    /*background: #020617;*/
+    background-color: #e0f2fe;
+    font-size: 1rem;
+    margin: .2rem;
+}
+
+:root { font-family: 'Inter', 'Noto Sans SC', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', 'Noto Sans SC', sans-serif; }
+}
+
+main {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    flex: 1;
+    min-height: 85vh;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+code {
+    font-family: "Cascadia Code", monospace;
+    color: black;
+}
+
+pre {
+    padding: 1rem;
+    padding-top: .1rem;
+    /*background: #0000ff1f;*/
+    background: #202020;
+    
+    border-radius: 5px;
+}
+
+pre code { color: #dddddd; }
+
+.btn {
+    border: 0;
+    background-color: #00f;
+    color: white;
+    padding: .5rem 1.7rem .5rem 1.7rem;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: all 200ms;
+
+    font-weight: 500;
+    font-family: "Inter var", "Noto Sans SC", sans-serif;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: #0000ffe0;
+    box-shadow: 0px 0px 20px 0px gray;
+}
